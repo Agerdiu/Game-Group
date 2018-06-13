@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our Tower Defense Game", "Assembly-CSharp.csproj", "{EB620887-895A-9D40-6EFB-7F4E47C907FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our Tower Defense Game", "Assembly-CSharp-Editor.csproj", "{E6021274-A1D1-3621-5CC5-2FF8E8683CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB620887-895A-9D40-6EFB-7F4E47C907FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB620887-895A-9D40-6EFB-7F4E47C907FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB620887-895A-9D40-6EFB-7F4E47C907FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB620887-895A-9D40-6EFB-7F4E47C907FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6021274-A1D1-3621-5CC5-2FF8E8683CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6021274-A1D1-3621-5CC5-2FF8E8683CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6021274-A1D1-3621-5CC5-2FF8E8683CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6021274-A1D1-3621-5CC5-2FF8E8683CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
