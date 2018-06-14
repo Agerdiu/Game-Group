@@ -3,8 +3,19 @@ guid: 586d66ce82e5a40a5bc93efd06cdf190
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: EV_Platform
-  externalObjects: {}
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RetopoGroup1
+    second: {fileID: 2100000, guid: 7ec4d2720242b404ea212c77eb920b23, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

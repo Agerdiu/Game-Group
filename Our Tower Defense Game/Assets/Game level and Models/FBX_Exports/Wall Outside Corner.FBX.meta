@@ -3,8 +3,18 @@ guid: e18036367562749d1bfb829c441e91fa
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: EV_Wall_Out
-  externalObjects: {}
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wire_135006006
+    second: {fileID: 2100000, guid: 45b0f0cd0261747ba8acc563be9806fc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

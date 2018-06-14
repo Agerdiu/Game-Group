@@ -3,8 +3,18 @@ guid: 6d12ee12ac1e8477a97ba34e20414063
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Stairs
-  externalObjects: {}
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 7ec8f0a4dd4bc4cd2987c415ce705c65, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
