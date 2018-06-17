@@ -165,8 +165,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1812402603656880}
-  m_LocalRotation: {x: 0, y: -0.5495332, z: 0, w: 0.83547187}
-  m_LocalPosition: {x: 0.02, y: 1.2374179, z: 0.030649967}
+  m_LocalRotation: {x: 0, y: -0.94205743, z: 0, w: 0.33545157}
+  m_LocalPosition: {x: 0.01999998, y: 1.2374179, z: 0.030650139}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 4673914728120448}
@@ -174,7 +174,7 @@ Transform:
   - {fileID: 4331377263177008}
   m_Father: {fileID: 4053106389929950}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -66.67, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -140.8, z: 0}
 --- !u!4 &4331377263177008
 Transform:
   m_ObjectHideFlags: 1
@@ -499,7 +499,7 @@ MonoBehaviour:
   - {fileID: 4499677285926300}
   - {fileID: 4331377263177008}
   epicenter: {fileID: 4053106389929950}
-  isMultiAttack: 0
+  isMultiAttack: 1
   fireRate: 0.7
   randomAudioSource: {fileID: 114387719990752650}
   towerTargetter: {fileID: 114612418106280842}
@@ -519,13 +519,14 @@ MonoBehaviour:
   turretXRotationRange: {x: -20, y: 20}
   onlyYTurretRotation: 1
   searchRate: 1
+  targetOffset: 270
   idleRotationSpeed: 30
   idleCorrectionTime: 2
   attachedCollider: {fileID: 136093762231809196}
   idleWaitTime: 2
 --- !u!136 &136093762231809196
 CapsuleCollider:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1785638663440386}

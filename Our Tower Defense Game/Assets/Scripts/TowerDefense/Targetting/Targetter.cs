@@ -52,10 +52,12 @@ namespace TowerDefense.Targetting
 		/// </summary>
 		public float searchRate;
 
-		/// <summary>
-		/// Y rotation speed while the turret is idle in degrees per second
-		/// </summary>
-		public float idleRotationSpeed = 39f;
+
+        public float targetOffset;
+        /// <summary>
+        /// Y rotation speed while the turret is idle in degrees per second
+        /// </summary>
+        public float idleRotationSpeed = 39f;
 
 		/// <summary>
 		/// The time it takes for the tower to correct its x rotation on idle in seconds
@@ -381,6 +383,7 @@ namespace TowerDefense.Targetting
 				// We need to convert the rotation to a -180/180 wrap so that we can clamp the angle with a min/max
 				float x = Wrap180(lookEuler.x);
 				lookEuler.x = Mathf.Clamp(x, turretXRotationRange.x, turretXRotationRange.y);
+                lookEuler.y += targetOffset;
 				look.eulerAngles = lookEuler;
 				turret.rotation = look;
 			}
